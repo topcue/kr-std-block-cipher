@@ -217,13 +217,13 @@ void LEA_256() {
 }
 
 int main() {
-	printf("\n[*] [LEA_128]\n");
+	printf("\n[*] LEA 128\n");
 	LEA_128();
 	
-	printf("\n[*] [LEA_192]\n");
+	printf("\n[*] LEA 192\n");
 	LEA_192();
 	
-	printf("\n[*] [LEA_256]\n");
+	printf("\n[*] LEA 256\n");
 	LEA_256();
 	
 	return 0;
