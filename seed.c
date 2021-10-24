@@ -277,6 +277,7 @@ void seed_test() {
 	P[2] = 0x08090A0B;
 	P[3] = 0x0C0D0E0F;
 
+	printf("[*] SEED 128\n");
 	printf("P: %08X %08X %08X %08X\n", P[0], P[1], P[2], P[3]);
 	
 	seed128(P, K);
