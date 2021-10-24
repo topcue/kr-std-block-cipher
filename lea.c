@@ -1,6 +1,7 @@
 /*
  * @author topcue
  */
+
 #include <stdio.h>
 
 #define NR_128 24
